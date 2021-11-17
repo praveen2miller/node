@@ -1,6 +1,6 @@
 import express,{Application,Request,Response,NextFunction} from 'express';
 let express = require('express');
-let app = express(); // Sensitive
+let app = express();
 
 app.get('/', function (req, res) {
   res.send('hello')
